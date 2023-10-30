@@ -9,6 +9,7 @@ import instance from '@/config/Server';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
+import Link from 'next/link';
 
 
 const page = () => {
@@ -113,7 +114,9 @@ const page = () => {
                             <label>Phone Number</label>
                             <div className='mt-2 flex w-full items-center'>
                                 <div className=''>
-                                <select className='rounded-xl border-2 ring-gray-200 p-3 pr-5 mr-3'>
+                                    <select
+                                        className='rounded-xl border-2
+                                         ring-gray-200 p-3 pr-5 mr-3'>
                                 <option>
                                     +234
                             </option>
@@ -207,7 +210,6 @@ const page = () => {
                                  : <input
                                     type='radio'
                                     className=' fill-green-400'
-                                    checked={ passCheck ? "true": ""}
                                 />}                                <span className='ml-3'> Must have a number</span>
                             </span>
                         </div>
@@ -218,7 +220,13 @@ const page = () => {
                             Create Account
                             </button>
                         </div>
-                        <span>have a LoanLink Account? <span className='text-primary'>Log in</span></span>
+                        <span>have a LoanLink Account?
+                            <span className='text-primary'>
+                                <Link href='/auth/login'>
+                                Log in
+                                </Link>
+                            </span>
+                        </span>
                     </form>
 
                 </div>
