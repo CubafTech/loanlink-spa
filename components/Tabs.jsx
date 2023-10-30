@@ -4,7 +4,7 @@ const Tabs = () => {
     return (
         <div className='mx-auto max-w-3xl w-full'>
             <ul
-                className="grid grid-flow-col text-center text-gray-500 bg-gray-100 rounded-full p-5">
+                className="grid grid-flow-col text-center text-gray-500 rounded-full p-5">
                 
                 <li>
                     <a href="/"
