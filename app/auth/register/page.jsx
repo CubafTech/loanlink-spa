@@ -58,7 +58,7 @@ const page = () => {
                                     placeholder='Enter Password' className='border-2 p-3 rounded-xl ring-gray-200 w-full relative' />
                                 <span
                                     onClick={handleEye}
-                                    className='absolute right-3 mt-3 mr-3'>
+                                    className='absolute right-3 mt-3 mr-6'>
                                     {showPass
                                         ?
                                         <Eye className='text-gray-300' />
