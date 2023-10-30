@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import { Eye, EyeOff } from 'lucide-react';
 import Link from 'next/link';
+import Logo from '@/components/Logo';
 
 
 
@@ -47,7 +48,7 @@ const page = () => {
                                     placeholder='Enter Password' className='ring-2 p-3 rounded-xl ring-gray-200 w-full relative' />
                                 <span
                                     onClick={handleEye}
-                                    className='absolute right-3 mt-3 mr-3'>
+                                    className='absolute right-3 mt-3 mr-6'>
                                     {showPass
                                         ?
                                         <Eye className='text-gray-300' />
@@ -59,14 +60,20 @@ const page = () => {
                         <div className='mt-5 flex items-center justify-end w-full'>
                             <h2 className='text-primary'>Forgot Password?</h2>
                         </div>
-                        <div className='my-7 flex w-full'>4
-                            <Link href="/auth/login">
-                            <button className='bg-primary text-white w-full rounded-full p-3'>
+                        <div className='my-7 flex w-full'>
+                                <button
+                                    className='bg-primary text-white w-full rounded-full p-3'>
                              Log in
                             </button>
-                            </Link>
                         </div>
-                        <span>New to LoanLink? <span className='text-primary'>Create Account</span></span>
+                        <span>
+                            New to LoanLink?
+                            <span className='text-primary'>
+                                <Link href="/auth/register">
+                                    Create Account
+                                </Link>
+                            </span>
+                        </span>
                     </form>
 
                 </div>
