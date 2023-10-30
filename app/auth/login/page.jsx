@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { Eye, EyeOff } from 'lucide-react';
+import Link from 'next/link';
 
 
 
@@ -58,10 +59,12 @@ const page = () => {
                         <div className='mt-5 flex items-center justify-end w-full'>
                             <h2 className='text-primary'>Forgot Password?</h2>
                         </div>
-                        <div className='my-7 flex w-full'>
+                        <div className='my-7 flex w-full'>4
+                            <Link href="/auth/login">
                             <button className='bg-primary text-white w-full rounded-full p-3'>
-                         Log in
+                             Log in
                             </button>
+                            </Link>
                         </div>
                         <span>New to LoanLink? <span className='text-primary'>Create Account</span></span>
                     </form>

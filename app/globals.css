@@ -31,3 +31,13 @@ h1{
 .bg-primary{
   background-color: #7335EE;
 }
+
+.blob1{
+  background: url('../assets/blobs/blob1.png');
+}
+.blob2{
+  background: url('../assets/blobs/blob2.png');
+}
+.blob3{
+  background: url('../assets/blobs/blob2.png');
+}
