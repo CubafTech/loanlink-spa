@@ -1,3 +1,4 @@
+import { Home } from 'lucide-react'
 import React from 'react'
 
 const Tabs = () => {
@@ -10,17 +11,19 @@ const Tabs = () => {
                     <a href="/"
                         className="flex justify-center
                          bg-white rounded-full shadow
-                          text-indigo-500 py-4">Home</a>
+                          text-indigo-500 py-4">
+                          <Home />
+                          </a>
                 </li>
                 <li>
-                    <a href="/faqs"
-                        className="flex justify-center py-4">Faqs</a>
+                    <a href="/auth/register"
+                        className="flex justify-center py-4">Register</a>
                 </li>
                     <li>
                           <a href="/terms" className="flex justify-center py-4">Terms</a>
                     </li>
                     <li>
-                    <a href="/Customer" className="flex justify-center py-4">Cutomer Support</a>
+                    <a href="/Customer" className="flex justify-center py-4">LoanLinker Ai</a>
                     </li>
             
             </ul>

@@ -30,7 +30,7 @@ export const Footer = () => {
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div>
               <h4 className="font-semibold tracking-wide text-teal-accent-400">
-                Category
+                About us
               </h4>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -38,7 +38,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    News
+                    Faqs
                   </a>
                 </li>
                 <li>
@@ -46,7 +46,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    World
+                    Contact us
                   </a>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Games
+                    Terms and conditions
                   </a>
                 </li>
                 <li>
@@ -62,14 +62,22 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    References
+                    Regulations
+                  </a>
+                </li>
+                 <li>
+                  <a
+                    href="/"
+                    className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
+                  >
+                    about us
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold tracking-wide text-teal-accent-400">
-                Cherry
+                Account
               </h4>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -77,7 +85,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Web
+                    Register
                   </a>
                 </li>
                 <li>
@@ -85,7 +93,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    eCommerce
+                    Customer support
                   </a>
                 </li>
                 <li>
@@ -93,7 +101,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Business
+                    Blog
                   </a>
                 </li>
                 <li>
@@ -101,7 +109,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Entertainment
+                    Fintech
                   </a>
                 </li>
                 <li>
@@ -109,14 +117,14 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Portfolio
+                    Our Ai 
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold tracking-wide text-teal-accent-400">
-                Apples
+                Products
               </h4>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -124,7 +132,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Media
+                    Merchant 
                   </a>
                 </li>
                 <li>
@@ -132,7 +140,8 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Brochure
+                    Micro Business Loans
+
                   </a>
                 </li>
                 <li>
@@ -140,7 +149,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Nonprofit
+                    Non-profit
                   </a>
                 </li>
                 <li>
@@ -148,7 +157,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Educational
+                    Business Enterprise Loans
                   </a>
                 </li>
                 <li>
@@ -156,7 +165,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Projects
+                      Medium Business Loans
                   </a>
                 </li>
               </ul>
@@ -171,7 +180,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Infopreneur
+                    Become an investor
                   </a>
                 </li>
                 <li>
@@ -179,7 +188,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Personal
+                    Get Funded
                   </a>
                 </li>
                 <li>
@@ -187,7 +196,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Wiki
+                    For Startups
                   </a>
                 </li>
                 <li>
@@ -195,7 +204,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-primary hover:text-teal-accent-400"
                   >
-                    Forum
+                    Marketplace
                   </a>
                 </li>
               </ul>

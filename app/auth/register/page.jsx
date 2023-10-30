@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { Eye, EyeOff } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 
 
@@ -14,6 +15,7 @@ const page = () => {
     }
     return (
         <div className='max-w-xl w-full mx-auto'>
+            <Logo />
             <div className='p-5 flex flex-col  w-full'>
                 <div className='flex flex-col my-2'>
                     <h2 className='text-2xl'>Create Account</h2>
@@ -28,7 +30,7 @@ const page = () => {
                                 <input
                                     type='text'
                                     placeholder='johndoe@gmail.com'
-                                    className='ring-2 p-3 rounded-xl
+                                    className='border-2 p-3 rounded-xl
                                      ring-gray-200 w-full' />
                             </div>
                         </div>
@@ -36,14 +38,14 @@ const page = () => {
                             <label>Phone Number</label>
                             <div className='mt-2 flex w-full items-center'>
                                 <div className=''>
-                                <select className='rounded-xl ring-2 ring-gray-200 p-3 pr-5 mr-3'>
+                                <select className='rounded-xl border-2 ring-gray-200 p-3 pr-5 mr-3'>
                                 <option>
                                     +234
                             </option>
                                 </select>     
                                 </div>
                                 <div className='w-full'>
-                                    <input type='text' placeholder='Phone Number' className='rounded-xl ring-2 w-full ring-gray-200 p-3'/>
+                                    <input type='text' placeholder='Phone Number' className='rounded-xl border-2 w-full ring-gray-200 p-3'/>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +55,7 @@ const page = () => {
                             <div className='flex  mt-2'>
                                 <input
                                     type={ showPass? "password" : "text"}
-                                    placeholder='Enter Password' className='ring-2 p-3 rounded-xl ring-gray-200 w-full relative' />
+                                    placeholder='Enter Password' className='border-2 p-3 rounded-xl ring-gray-200 w-full relative' />
                                 <span
                                     onClick={handleEye}
                                     className='absolute right-3 mt-3 mr-3'>
